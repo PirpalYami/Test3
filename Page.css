@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px; 
+    margin-left: 25px;
+}
+
+body {
+    font-family: "Zain", sans-serif;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.image-1 {
+    position: fixed;
+    left: 900px;    
+    bottom: 150px;
+    width: 500px;
+    border: 20px solid wheat;
+    border-radius: 2000px;
+    background-color: wheat;
+}
+
+.Heading-1 {
+    display: inline-block;
+    text-align: left;
+    padding-top: 50px;
+    color: wheat;
+    font-size: 100px;
+}
+
+.Paragraf-1 {
+    text-align: left;
+    color: wheat;
+}
+
+nav {
+    text-align: left;
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0px 0px;
+    margin-left: 50px;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 5px solid wheat;
+    border-radius: 100px;
+    background-color: wheat;
+}
+
+nav a:hover {
+    content: 0;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid black;
+    transform: scale(0);
+    transition: linear 0.25s
+}
+
+nav a:hover::after {
+    transform: scale(0.75);
+}
+
+section div.Box h1 {
+    font-size: 35px;
+}
+
+.Box {
+    display: flex;
+    color: wheat; 
+    text-align: left;
+    margin-top: 50px;
+}
+
+.List1 {
+    margin-top: 10px;
+    font-size: xx-small
+}
+
+.list2 {
+    margin-top: 10px;
+}
